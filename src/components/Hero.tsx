@@ -1,6 +1,8 @@
+import Section from "./Section";
 export default function Hero() {
   return (
-    <section className="mx-auto max-w-4xl px-8 py-24 text-center">
+    <Section width="narrow">
+          <div className="text-center">
       <h1 className="text-6xl font-bold tracking-tight">
         Arkhaven Press
       </h1>
@@ -16,16 +18,14 @@ export default function Hero() {
         Arkhaven Press seeks to preserve and publish
         works worthy of future generations.
       </p>
+      </div>
 
       <div className="mt-12 flex justify-center gap-4">
-        <button className="rounded bg-stone-900 px-6 py-3 text-white hover:bg-stone-700">
-          Explore Books
-        </button>
-
+     
         <button className="rounded border border-stone-900 px-6 py-3 hover:bg-stone-200">
           About the Press
         </button>
       </div>
-    </section>
+    </Section>
   );
 }

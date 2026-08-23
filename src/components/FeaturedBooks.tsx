@@ -1,13 +1,16 @@
+import Section from "./Section";
 import BookCard from "./BookCard";
+import SectionHeading from "./SectionHeading";
 
 export default function FeaturedBooks() {
   return (
-    <section className="mx-auto max-w-5xl px-8 py-16">
-      <h2 className="mb-10 text-3xl font-bold">
+    <Section width="wide">
+      <SectionHeading>
         Featured Publications
-      </h2>
+      </SectionHeading>
 
-      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8
+       md:grid-cols-2 lg:grid-cols-3">
         <BookCard
           title="Ben Sira"
           subtitle="A New Translation and Commentary"
@@ -15,7 +18,7 @@ export default function FeaturedBooks() {
         />
 
         <BookCard
-          title="Public Domain Series"
+          title="Scruffy Bear"
           subtitle="Faithfully restored editions"
           status="Planning"
         />
@@ -26,6 +29,6 @@ export default function FeaturedBooks() {
           status="Future Project"
         />
       </div>
-    </section>
+    </Section>
   );
 }
