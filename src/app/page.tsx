@@ -1,6 +1,8 @@
+import Header from "../components/Header";
 export default function Home() {
   return (
     <main className="min-h-screen bg-stone-50 text-stone-900">
+      <Header />
       <section className="mx-auto max-w-4xl px-8 py-24 text-center">
         <h1 className="text-6xl font-bold tracking-tight">
           Arkhaven Press
