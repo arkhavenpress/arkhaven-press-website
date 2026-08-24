@@ -1,12 +1,12 @@
 import Section from "@/components/Section";
 import SectionHeading from "@/components/SectionHeading";
-import Header from "@/components/Header";
+
 
 export default function AboutPage() {
   return (
   <main className="min-h-screen bg-stone-50 text-stone-900">
 
-<Header />
+
 
       <Section width="narrow">
 
@@ -25,7 +25,8 @@ export default function AboutPage() {
 
         <p className="leading-8">
           Arkhaven Press exists to preserve, publish,
-          and create books worthy of future generations.
+          and create books that we feel are worth 
+          passing forward to future generations.
           We believe that thoughtful scholarship,
           careful editing,
           beautiful typography,
@@ -111,8 +112,8 @@ export default function AboutPage() {
           <li>Scholarship before novelty.</li>
           <li>Accuracy before speed.</li>
           <li>Beauty through simplicity.</li>
-          <li>Books built to endure.</li>
-          <li>Regard for every reader.</li>
+          <li>Books produced to endure.</li>
+          <li>Readability by design.</li>
         </ul>
 
       </Section>

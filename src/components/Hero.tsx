@@ -9,15 +9,15 @@ export default function Hero() {
       </h1>
 
       <p className="mt-6 text-2xl italic text-stone-600">
-        Publishing works of lasting value.
+        Publishing works of lasting worth.
       </p>
 
       <p className="mx-auto mt-10 max-w-2xl text-lg leading-8">
         Through careful scholarship,
         thoughtful translation,
-        and beautifully crafted editions,
+        and dilligently crafted editions,
         Arkhaven Press seeks to preserve and publish
-        works worthy of future generations.
+        works of value for future generations.
       </p>
       </div>
 

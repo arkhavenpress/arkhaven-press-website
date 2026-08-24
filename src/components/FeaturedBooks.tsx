@@ -9,8 +9,7 @@ export default function FeaturedBooks() {
         Featured Publications
       </SectionHeading>
 
-      <div className="grid gap-8
-       md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         <BookCard
           title="Ben Sira"
           subtitle="A New Translation and Commentary"
@@ -18,13 +17,13 @@ export default function FeaturedBooks() {
         />
 
         <BookCard
-          title="Scruffy Bear"
+          title="Childrens Book"
           subtitle="Faithfully restored editions"
           status="Planning"
         />
 
         <BookCard
-          title="Children's Classics"
+          title="Children's Classic"
           subtitle="Beautiful editions for families"
           status="Future Project"
         />
