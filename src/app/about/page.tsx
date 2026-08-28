@@ -11,7 +11,7 @@ export default function AboutPage() {
       <Section width="narrow">
 
         <h1 className="text-5xl font-bold text-center">
-          About Arkhaven Press
+          About Us
         </h1>
 
 

@@ -1,13 +1,16 @@
+import Link from "next/link";
 type BookCardProps = {
   title: string;
   subtitle: string;
   status: string;
+  href?: string;
 };
 
 export default function BookCard({
   title,
   subtitle,
   status,
+  href,
 }: BookCardProps) {
   return (
     <div className="rounded-lg border border-stone-300 bg-white p-6 shadow-sm">
@@ -23,9 +26,15 @@ export default function BookCard({
         {status}
       </p>
 
-      <button className="mt-6 rounded bg-stone-900 px-4 py-2 text-white">
-        Learn More
-      </button>
+   {href && (
+    <Link
+  href={href}
+  className="inline-block mt-6 rounded bg-stone-900 px-4 py-2 text-white hover:bg-stone-700 transition"
+>
+  Learn More
+</Link>
+)}  
+
     </div>
   );
 }
