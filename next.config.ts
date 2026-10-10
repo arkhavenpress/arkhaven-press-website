@@ -12,8 +12,7 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
 
-  basePath: "/arkhaven-press-website",
-  assetPrefix: "/arkhaven-press-website",
+
 };
 
 export default nextConfig;
