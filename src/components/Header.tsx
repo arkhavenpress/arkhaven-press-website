@@ -5,7 +5,7 @@ export default function Header() {
     <header className="border-b border-stone-300">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-8 py-6">
         <Image
-    src="/images/logon.svg"
+    src="/images/Logon.svg"
     alt="Arkhaven Press"
     width={120}
     height={63}
