@@ -7,9 +7,13 @@ const nextConfig: NextConfig = {
 
   output: "export",
   trailingSlash: true,
+
   images: {
     unoptimized: true,
   },
+
+  basePath: "/arkhaven-press-website",
+  assetPrefix: "/arkhaven-press-website",
 };
 
 export default nextConfig;
