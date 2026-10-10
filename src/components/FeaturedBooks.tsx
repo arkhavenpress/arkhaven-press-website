@@ -26,8 +26,8 @@ export default function FeaturedBooks() {
         />
 
         <BookCard
-          title="Children's Classic"
-          subtitle="Beautiful editions for families"
+          title="In Beginning (Genesis)"
+          subtitle="A careful translation with the Hebrew names rendered in English"
           status="Future Project"
       
         />

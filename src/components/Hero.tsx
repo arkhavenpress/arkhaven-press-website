@@ -15,7 +15,7 @@ export default function Hero() {
       <p className="mx-auto mt-10 max-w-2xl text-lg leading-8">
         Through careful scholarship,
         thoughtful translation,
-        and dilligently crafted editions,
+        and diligently crafted editions,
         Arkhaven Press seeks to preserve and publish
         works of value for future generations.
       </p>

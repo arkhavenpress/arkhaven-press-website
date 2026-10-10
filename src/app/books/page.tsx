@@ -129,7 +129,7 @@ export default function BooksPage() {
         <p className="leading-8">
           The catalogue of Arkhaven Press will grow
           slowly and intentionally.
-          We believe thoughtful publishing values
+          We believe in thoughtful publishing, traditional values, and
           careful selection over rapid expansion.
         </p>
 

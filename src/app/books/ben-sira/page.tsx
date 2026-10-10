@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function BenSiraPage() {
   return (
-    <main>
+       <main className="min-h-screen bg-stone-50 text-stone-900">
 
       <Section width="narrow">
 
