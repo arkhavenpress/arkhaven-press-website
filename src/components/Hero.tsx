@@ -9,7 +9,7 @@ export default function Hero() {
       </h1>
 
       <p className="mt-6 text-2xl italic text-stone-600">
-        Publishing works of lasting worth.
+        Publishing works of lasting value.
       </p>
 
       <p className="mx-auto mt-10 max-w-2xl text-lg leading-8">
