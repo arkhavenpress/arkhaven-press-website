@@ -22,7 +22,7 @@ export default function FeaturedBooks() {
           title="Childrens Book"
           subtitle="Faithfully restored editions"
           status="Planning"
-          href="/"
+          
         />
 
         <BookCard
